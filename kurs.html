@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kurslar ve Seminerler</title>
+    <link rel="icon" type="image/x-icon" href="assets/ek.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #343a40;
+        }
+        .navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:hover {
+            background-color: #343a40;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link.active {
+            color: #17a2b8;
+        }
+        .skills-section {
+            padding: 80px 0;
+        }
+        .skill-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .skill-card i {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .skill-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .skill-card p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+        }
+        .skill-card:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .animate-slide-left {
+            animation: slide-left 1s ease-in-out;
+        }
+
+        .animate-slide-right {
+            animation: slide-right 1s ease-in-out;
+        }
+
+        @keyframes slide-left {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-right {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">
+                <img src="assets/ek.ico" alt="E|K" style="width: 40px; height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yeteneklerim.html">Yeteneklerim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kurs.html">Sertifika ve Kurslar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkımda.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="skills-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 animate-slide-left">Kurslar ve Seminerler</h2>  
+            <div class="row animate-slide-right">
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-book fa-5x mb-4"></i>
+                        <h5 class="card-title">KSG 19</h5>
+                        <p class="card-text">Bu seminer Gazi Üniversitesinde verildi. Üst düzey yöneticilerin konuşmalarının olduğu bir oturumdur.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-book fa-5x mb-4"></i>
+                        <h5 class="card-title">Perfect English</h5>
+                        <p class="card-text">1 yıl süren eğitim aldığım B2 seviyesine kadar İngilizce dilini öğrendiğim bir kurstur.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-laptop fa-5x mb-4"></i>
+                        <h5 class="card-title">C# ve MsSql - UDEMY</h5>
+                        <p class="card-text">Online olarak kazandığım bir kurstur. Bu kursta C# üzerinde ve MsSql üzerinde çeşitli eğitimler aldım.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-laptop fa-5x mb-4"></i>
+                        <h5 class="card-title">JavaScript - UDEMY</h5>
+                        <p class="card-text">Online olarak kazandığım bir kurstur. Bu kursta JavaScript üzerinde çeşitli eğitimler aldım.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-laptop fa-5x mb-4"></i>
+                        <h5 class="card-title">PHP, HTML, CSS - UDEMY</h5>
+                        <p class="card-text">Online olarak kazandığım bir kurstur. Bu kursta PHP, HTML, CSS üzerinde çeşitli eğitimler aldım.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center">
+                        <i class="fas fa-laptop fa-5x mb-4"></i>
+                        <h5 class="card-title">Python - UDEMY</h5>
+                        <p class="card-text">Online olarak kazandığım bir kurstur. Bu kursta Python üzerinde çeşitli eğitimler aldım.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="scrollTopButton" class="scroll-top-button"><i class="bi bi-arrow-up"></i></button>
+    </section>
+    <script>
+        const scrollTopButton = document.getElementById('scrollTopButton');
+
+        function toggleScrollTopButton() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopButton.style.display = 'block';
+            } else {
+                scrollTopButton.style.display = 'none';
+            }
+        }
+
+        window.onload = toggleScrollTopButton;
+        window.onscroll = toggleScrollTopButton;
+
+        scrollTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        window.addEventListener('load', () => {
+            const title = document.querySelector('.animate-slide-left');
+            const skillCards = document.querySelectorAll('.skill-card.animate-slide-right');
+
+            title.classList.add('animate-slide-left');
+
+            skillCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.classList.add('animate-slide-right');
+                }, index * 300); 
+            });
+        });
+    </script>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Emre Korkmaz 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
